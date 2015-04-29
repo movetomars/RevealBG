@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>So-And-So, Designer</title>
+    <link rel="stylesheet" type="text/css" href="canvas.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="draw.js"></script>
+    <script src="sketch.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <canvas id="canvas" width="2000px" height="2500px" style="background: url(frontbg.jpg) no-repeat;">
+
+    </canvas>
+    <script type="text/javascript">
+        $(function() {
+            $('#canvas').sketch();
+        });
+    </script>
+    <div class="hello">
+        <h1>Hello.</h1>
+        <h2>I'm some person that maybe you should hire.</h2>
+    </div>
+</body>
+</html>
